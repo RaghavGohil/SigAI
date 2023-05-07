@@ -1,0 +1,46 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.index{position:relative;}
+
+.index .background
+{
+    display: block;
+    width:100vw;
+    height:100vh;
+    object-fit: cover;
+}
+
+.index .content-container
+{
+    color:white;
+    font-size: 50px;
+    position:absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+.index .sub
+{
+    font-size: 17px;
+    text-align: center;
+    position: relative;
+}
+
+.index button
+{
+    font-size: 14px;
+    background: none;
+    border: 2px solid white;
+    color:white;
+    border-radius: 5px;
+    padding: 10px;
+}

@@ -1,2 +1,2 @@
 # SigAI
-A simple web application for special interest group for artificial intelligence.
+A simple reactjs application for special interest group for artificial intelligence.
